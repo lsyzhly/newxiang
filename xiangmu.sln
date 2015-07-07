@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web", "web\web.csproj", "{0
 		{4F404754-1E41-4283-A5AF-B835080ACA66} = {4F404754-1E41-4283-A5AF-B835080ACA66}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todata", "todata\todata.csproj", "{FE55DB46-530B-4D65-8A2E-69F292E3211F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,16 @@ Global
 		{02B1EAFC-31D6-47F8-BA74-BA0524AC2C39}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{02B1EAFC-31D6-47F8-BA74-BA0524AC2C39}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{02B1EAFC-31D6-47F8-BA74-BA0524AC2C39}.Release|x86.ActiveCfg = Release|Any CPU
+		{FE55DB46-530B-4D65-8A2E-69F292E3211F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE55DB46-530B-4D65-8A2E-69F292E3211F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE55DB46-530B-4D65-8A2E-69F292E3211F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FE55DB46-530B-4D65-8A2E-69F292E3211F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FE55DB46-530B-4D65-8A2E-69F292E3211F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FE55DB46-530B-4D65-8A2E-69F292E3211F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE55DB46-530B-4D65-8A2E-69F292E3211F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE55DB46-530B-4D65-8A2E-69F292E3211F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FE55DB46-530B-4D65-8A2E-69F292E3211F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FE55DB46-530B-4D65-8A2E-69F292E3211F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
