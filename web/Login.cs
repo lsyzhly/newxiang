@@ -35,7 +35,6 @@ public class UserLogin : UserControl
     {
         if (Login != null) {
             Driver a = new datacontrol("D:\\asd.data").getDriver(Name);
-
             if (a != null && a.password == Pas)
             {
                 Session["driver"] = a;
