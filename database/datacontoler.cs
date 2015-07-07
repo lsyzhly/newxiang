@@ -10,18 +10,6 @@ public class datacontrol{
 
     public void oninit()
     {
-        insert("H12345", 2013, true, true, true);
-        insert("C12345", 2013, true, true, true);
-        insert("J12345", 2013, false, true, true);
-        insert("G12345", 2011, true, true, true);
-        insert("M123", "123", true, "Amy", "19950125", "1234");
-        insert("M456", "456", false, "Tom", "19941212", "5678");
-        insert("M789", "789", false, "kitty", "19941212", "0789");
-        insert("H12345", "M123", 20101020, 20151020, true, true);
-        insert("G12345", "M456", 20121020, 20151020, false, true);
-        insert("H12345", "M123", 20151020, 20171020, false, true);
-        insert("G12345", "M789", 20151020, 20171020, true, true);
-        insert("J12345", "H12345", 20121010, 20151010, true, true);
     }
 
 	public datacontrol(String path){
