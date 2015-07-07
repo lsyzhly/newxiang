@@ -8,3 +8,7 @@ L:\xiangmu\database\obj\Debug\database.dll
 L:\xiangmu\database\obj\Debug\database.pdb
 L:\xiangmu\database.dll
 L:\xiangmu\database.pdb
+F:\code\xiangmu\database\obj\Debug\database.dll
+F:\code\xiangmu\database\obj\Debug\database.pdb
+F:\code\xiangmu\database.dll
+F:\code\xiangmu\database.pdb
