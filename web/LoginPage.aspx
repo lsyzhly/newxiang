@@ -14,9 +14,9 @@
 </html>
 
 <script language="C#" runat="server">
-  void OnLoginUser (Object sender, String e)
+  void OnLoginUser (Object sender, bool e)
   {
-      if (e != null)
+      if (e)
       {
           Driver a = (Driver)Session["driver"];
           Output.Text = "Hello, " + a.password;
