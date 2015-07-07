@@ -1,0 +1,10 @@
+c:\users\open201\documents\visual studio 2010\Projects\xiangmu\database\obj\Debug\ResolveAssemblyReference.cache
+c:\users\open201\documents\visual studio 2010\Projects\xiangmu\database\obj\Debug\database.dll
+c:\users\open201\documents\visual studio 2010\Projects\xiangmu\database\obj\Debug\database.pdb
+c:\users\open201\documents\visual studio 2010\Projects\xiangmu\database.dll
+c:\users\open201\documents\visual studio 2010\Projects\xiangmu\database.pdb
+L:\xiangmu\database\obj\Debug\database.csprojResolveAssemblyReference.cache
+L:\xiangmu\database\obj\Debug\database.dll
+L:\xiangmu\database\obj\Debug\database.pdb
+L:\xiangmu\database.dll
+L:\xiangmu\database.pdb

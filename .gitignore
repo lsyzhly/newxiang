@@ -1,14 +1,1 @@
-*.dll
 *.data
-*.exe
-*.module
-*.pdb
-*.csproj
-*/bin
-*/debug
-*/obj
-xiangmu*
-database/Properties/AssemblyInfo.cs
-todata/Properties/AssemblyInfo.cs
-web/web.csproj.user
-web/Properties/AssemblyInfo.cs
