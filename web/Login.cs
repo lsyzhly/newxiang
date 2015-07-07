@@ -27,8 +27,7 @@ public class UserLogin : UserControl
         set { Password.Text = value; }
     }
 
-    public delegate void LoginEventHandler (Object sender,
-        String e);
+    public delegate void LoginEventHandler (Object sender,bool is_true);
 
     public event LoginEventHandler Login;
 
@@ -40,9 +39,9 @@ public class UserLogin : UserControl
             if (a != null && a.password == Pas)
             {
                 Session["driver"] = a;
-                Login(this, a.password);
+                Login(this,true);
             }
-            else Login(this, null);
+            else Login(this, false);
         }
     }
 }
