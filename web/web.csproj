@@ -76,6 +76,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="diaName.aspx" />
     <Content Include="Driver.ascx" />
     <Content Include="LoginControl.ascx" />
     <Content Include="LoginPage.aspx" />
@@ -88,6 +89,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="diaName.aspx.cs">
+      <DependentUpon>diaName.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="diaName.aspx.designer.cs">
+      <DependentUpon>diaName.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Driver.cs" />
     <Compile Include="Login.cs">
       <SubType>ASPXCodeBehind</SubType>
