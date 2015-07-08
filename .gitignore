@@ -1,0 +1,7 @@
+*.dll
+*.sln
+*.suo
+*.database.csproj
+*\bin
+*\obj
+*\Properties
