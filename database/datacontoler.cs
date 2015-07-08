@@ -7,11 +7,6 @@ using System.Data.SQLite;
 public class datacontrol{
 	DbConnection connection;
 	DbCommand cmd;
-
-    public void oninit()
-    {
-    }
-
 	public datacontrol(String path){
 		bool flag;
 		if(File. Exists(path)){
@@ -37,7 +32,6 @@ public class datacontrol{
 			
 			cmd.CommandText="create table contract(carid varchar,driverid varchar,startdate int,enddate int,isagree bool,isvalid bool,PRIMARY KEY(carid,driverid,startdate))";
 			cmd.ExecuteNonQuery();
-            oninit();
 			//TODO create the table
 		}
 	}

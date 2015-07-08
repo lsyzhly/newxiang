@@ -39,6 +39,7 @@ public class UserLogin : UserControl
             {
                 Session["driver"] = a;
                 Login(this,true);
+                Response.Write("<script>alert('sucessful');location.href='diaName.aspx';</script>");
             }
             else Login(this, false);
         }
